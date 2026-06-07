@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import ReactDOM from 'react-dom/client'
+ReactDOM.createRoot(document.getElementById('root')).render(<Bright4LF />)
 
 const NAV_LINKS = ["Home", "Solution", "How It Works", "Impact", "About", "Contact"];
 
